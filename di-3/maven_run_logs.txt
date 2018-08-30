@@ -1,0 +1,24 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-test 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) @ spring-test >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) @ spring-test <<<
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ spring-test ---
+août 27, 2018 3:35:06 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFOS: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@62ab71a6: startup date [Mon Aug 27 15:35:06 CEST 2018]; root of context hierarchy
+août 27, 2018 3:35:06 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFOS: Loading XML bean definitions from class path resource [spring-beans.xml]
+com.poc.ClientService@3af9c17a
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.143s
+[INFO] Finished at: Mon Aug 27 15:35:06 CEST 2018
+[INFO] Final Memory: 6M/145M
+[INFO] ------------------------------------------------------------------------
+[WARNING] The requested profile "dev-profile" could not be activated because it does not exist.

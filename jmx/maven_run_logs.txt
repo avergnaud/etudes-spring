@@ -1,0 +1,21 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-test 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) @ spring-test >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) @ spring-test <<<
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ spring-test ---
+août 30, 2018 4:37:43 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFOS: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@30806ea8: startup date [Thu Aug 30 16:37:43 CEST 2018]; root of context hierarchy
+août 30, 2018 4:37:43 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFOS: Loading XML bean definitions from class path resource [spring-beans.xml]
+Something created true une_valeur
+août 30, 2018 4:37:44 PM org.springframework.jmx.export.MBeanExporter afterSingletonsInstantiated
+INFOS: Registering beans for JMX exposure on startup
+août 30, 2018 4:37:44 PM org.springframework.jmx.export.MBeanExporter registerBeanInstance
+INFOS: Located managed bean 'com.example:type=Something,name=smthng': registering with JMX server as MBean [com.example:type=Something,name=smthng]
+Waiting forever...

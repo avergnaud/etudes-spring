@@ -1,0 +1,25 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-test 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) @ spring-test >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) @ spring-test <<<
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ spring-test ---
+juil. 31, 2018 2:37:08 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFOS: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2c9126c8: startup date [Tue Jul 31 14:37:08 CEST 2018]; root of context hierarchy
+juil. 31, 2018 2:37:08 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFOS: Loading XML bean definitions from class path resource [spring-beans.xml]
+Inside Profile constructor.
+Age : 11
+Name : Zara
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.058s
+[INFO] Finished at: Tue Jul 31 14:37:08 CEST 2018
+[INFO] Final Memory: 9M/145M
+[INFO] ------------------------------------------------------------------------
